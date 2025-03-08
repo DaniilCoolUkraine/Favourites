@@ -5,5 +5,7 @@
   "description": "Fork of original plyoung repository.</n>Adds \"Favourites\" window to UnityEditor",
   "author": {
     "name": "DaniilCoolUkraine"
-  }
+  },
+  "changelogUrl": "https://github.com/DaniilCoolUkraine/Favourites/blob/master/CHANGELOG.md",
+  "documentationUrl": "https://github.com/DaniilCoolUkraine/Favourites/blob/master/README.md"
 }

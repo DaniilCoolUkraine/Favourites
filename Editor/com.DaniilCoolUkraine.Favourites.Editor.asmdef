@@ -1,0 +1,16 @@
+{
+    "name": "com.DaniilCoolUkraine.Favourites.Editor",
+    "rootNamespace": "Favourites.Editor",
+    "references": [
+        "GUID:1d8e973e74c2b724284eecc041ddf351"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
