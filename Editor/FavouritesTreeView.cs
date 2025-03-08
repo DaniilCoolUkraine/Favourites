@@ -130,39 +130,24 @@ namespace FavouritesEd
 
 		protected override void ContextClickedItem(int id)
 		{
-			GenericMenu menu = new GenericMenu();
-			menu.AddItem(new GUIContent("Ping"), false, HandleContextOption, id);
-			menu.ShowAsContext();
-		}
-
-		private void HandleContextOption(object arg)
-		{
-			int id = (int)arg;
 			FavouritesTreeElement ele = Model.Find(id);
 			if (ele != null && ele.fav != null && ele.fav.obj != null)
-			{
-				EditorGUIUtility.PingObject(ele.fav.obj);
-			}
+				AssetDatabase.OpenAsset(ele.fav.obj);
+			else
+				SetExpanded(id, !IsExpanded(id));
 		}
 
 		protected override void DoubleClickedItem(int id)
 		{
 			FavouritesTreeElement ele = Model.Find(id);
 			if (ele != null && ele.fav != null && ele.fav.obj != null)
-			{
-				AssetDatabase.OpenAsset(ele.fav.obj);				
-			}
-			else
-			{
-				SetExpanded(id, !IsExpanded(id));				
-			}
+				EditorGUIUtility.PingObject(ele.fav.obj);
 		}
 
 		protected override bool CanMultiSelect(TreeViewItem item)
 		{
 			return false;
 		}
-
 
 		protected override bool CanStartDrag(CanStartDragArgs args)
 		{
