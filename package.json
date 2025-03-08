@@ -1,0 +1,9 @@
+{
+  "name": "com.daniilcoolukraine.favourites",
+  "version": "1.0.0",
+  "displayName": "Favourites",
+  "description": "Fork of original plyoung repository.</n>Adds \"Favourites\" window to UnityEditor",
+  "author": {
+    "name": "DaniilCoolUkraine"
+  }
+}

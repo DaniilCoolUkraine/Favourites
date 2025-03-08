@@ -1,0 +1,14 @@
+{
+    "name": "com.DaniilCoolUkraine.Favourites",
+    "rootNamespace": "Favourites",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
