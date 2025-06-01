@@ -1,3 +1,7 @@
+## [1.0.2] - 2025-06-01
+### Bugfix
+- fixed build crash
+---
 ## [1.0.1] - 2025-03-08
 ### Bugfix
 - double click now pings object in project view
