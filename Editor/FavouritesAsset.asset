@@ -12,18 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 532d6ca4b9dfd794eb0118a3f70bdfbf, type: 3}
   m_Name: FavouritesAsset
   m_EditorClassIdentifier: 
-  favs:
-  - categoryId: 1
-    obj: {fileID: 102900000, guid: a133e50073e9593408776bd58ed41eff, type: 3}
-  - categoryId: 1
-    obj: {fileID: 102900000, guid: d22d81506b2a3ba478bfdfc92278bcd4, type: 3}
-  - categoryId: 1
-    obj: {fileID: 11400000}
-  - categoryId: 2
-    obj: {fileID: 102900000, guid: 07a350efc1cd6314eb2d6a0cf216d0f3, type: 3}
-  categories:
-  - id: 1
-    name: Folder
-  - id: 2
-    name: aa
-  nextCategoryId: 3
+  favs: []
+  categories: []
+  nextCategoryId: 0

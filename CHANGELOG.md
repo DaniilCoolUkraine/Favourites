@@ -1,3 +1,7 @@
+## [1.0.3] - 2025-11-09
+### Bugfix
+- cleared example data in ScriptableObject
+---
 ## [1.0.2] - 2025-06-01
 ### Bugfix
 - fixed build crash
